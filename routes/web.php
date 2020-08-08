@@ -21,4 +21,8 @@ Route :: get('contact', function () {
     return view('contact');
 });
 
-Route :: get('clients' , 'ClientsController@list');
+
+
+Route :: get('clients' , 'ClientsController@index');
+Route :: get('clients/create', 'ClientsController@create');
+Route :: post('clients' , 'ClientsController@store');

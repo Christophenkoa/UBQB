@@ -27,7 +27,7 @@
 
                     <div class="navbar-nav">
                             <a class="nav-link active" href="/">Accueil <span class="sr-only">(current)</span></a>
-                            <a class="nav-link" href="clients">voir mes clients</a>
+                            <a class="nav-link" href="/clients">voir mes clients</a>
                             <a class="nav-link" href="contact">contact</a>
                     </div>
                     
